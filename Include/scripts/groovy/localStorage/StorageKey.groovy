@@ -1,3 +1,4 @@
+package localStorage
 /**
  * Centralized registry for all runtime keys used by SimpleThreadStore.
  * Purpose:
