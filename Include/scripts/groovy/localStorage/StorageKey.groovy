@@ -10,17 +10,17 @@ package localStorage
  * How to use:
  * -----------
  * Set value:
- *   LocalStore.set(StoreKey.IS_LOGGED_IN, true)
+ *   LocalStore.set(StoreKey.IS_LOGGED_IN.name(), true)
  *
  * Get value with default:
  *   boolean loggedIn =
- *       LocalStore.get(StoreKey.IS_LOGGED_IN, false)
+ *       LocalStore.get(StoreKey.IS_LOGGED_IN.name(), false)
  *
  * Check existence:
- *   if (LocalStore.has(StoreKey.TOKEN)) { ... }
+ *   if (LocalStore.has(StoreKey.TOKEN.name())) { ... }
  *
  * Remove value:
- *   LocalStore.remove(StoreKey.SKIP_LOGIN)
+ *   LocalStore.remove(StoreKey.SKIP_LOGIN.name())
  */
 
 
