@@ -1,0 +1,19 @@
+{
+  "app": "App/app-debug.apk",
+  "platformName": "Android",
+  "appium:automationName": "UiAutomator2",
+  "autoGrantPermissions": true,
+  "noReset": true,
+  "fullReset": false,
+  "appWaitForLaunch" : true,
+  "disableWindowAnimation" : true,
+  "enforceAppInstall" : true,
+  "newCommandTimeout" : 1800.0,
+  "adbExecTimeout" : 120000.0,
+  "automationName" : "UiAutomator2",
+  "appWaitActivity" : "*",
+  "uiautomator2ServerLaunchTimeout" : 60000.0,
+  "ignoreHiddenApiPolicyError" : true,
+  "clearDeviceLogsOnStart" : true,
+  "deviceId" : ""
+}

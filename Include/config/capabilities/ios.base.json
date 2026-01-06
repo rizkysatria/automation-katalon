@@ -1,0 +1,15 @@
+{
+  "app": "App/phincon-test.app",
+  "platformName": "iOS",
+  "appium:automationName": "XCUITest",
+  "wdaLaunchTimeout": 60000,
+  "newCommandTimeout": 1800,
+  "shouldTerminateApp": false,
+  "waitForQuiescence": false,
+  "noReset": true,
+  "fullReset": false,
+  "useNewWDA": false,
+  "usePrebuiltWDA": true,
+  "wdaStartupRetries": 2,
+  "wdaStartupRetryInterval": 5000
+}

@@ -1,0 +1,11 @@
+{
+  "remoteWebDriverUrl": "https://cloud.katalon.com/wd/hub",
+
+  "app": "cloud://phincon-test",
+
+  "deviceName": "Pixel 7",
+  "platformVersion": "13",
+
+  "noReset": false,
+  "fullReset": true
+}

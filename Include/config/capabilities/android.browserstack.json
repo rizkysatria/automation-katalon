@@ -1,0 +1,21 @@
+{
+  "appium:autoGrantPermissions" : true,
+  "appium:newCommandTimeout" : 120.0,
+  "appium:waitForIdleTimeout" : 0.0,
+  "appium:disableWindowAnimation" : true,
+  "appium:automationName" : "UIAutomator2",
+  "bstack:options" : {
+    "deviceName" : "Google Pixel 7",
+    "osVersion" : "13.0",
+    "debug" : true,
+    "networkLogs" : true,
+    "appiumVersion" : "2.19.0",
+    "projectName" : "Automation Katalon",
+    "buildName" : "${bs.buildName}",
+    "sessionName" : "${bs.sessionName}"
+  },
+  "remoteWebDriverUrl" : "http://rizkysatrianugra_o1BLQh:DU4tXw5jESi1i3RmfeSq@hub-cloud.browserstack.com/wd/hub",
+  "app": "bs://00974dea053c00050261146229efe84ccdf4dd98",
+  "remoteWebDriverType" : "Appium",
+  "remoteMobileDriver" : "ANDROID_DRIVER"
+}

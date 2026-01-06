@@ -1,0 +1,14 @@
+{
+  "remoteWebDriverUrl": "https://cloud.katalon.com/wd/hub",
+
+  "app": "cloud://phincon-test",
+
+  "platformName": "iOS",
+  "appium:automationName": "XCUITest",
+
+  "deviceName": "iPhone 14",
+  "platformVersion": "16",
+
+  "noReset": false,
+  "fullReset": true
+}

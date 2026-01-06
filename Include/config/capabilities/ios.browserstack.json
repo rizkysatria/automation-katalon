@@ -1,0 +1,17 @@
+{
+  "remoteMobileDriver": "IOS_DRIVER",
+  "remoteWebDriverUrl": "http://hub-cloud.browserstack.com/wd/hub",
+
+  "app": "bs://c3f6d1234567890abcdef",
+
+  "bstack:options": {
+    "deviceName": "iPhone 14",
+    "osVersion": "16"
+  },
+
+  "browserstack.user": "${BROWSERSTACK_USERNAME}",
+  "browserstack.key": "${BROWSERSTACK_ACCESS_KEY}",
+
+  "noReset": false,
+  "fullReset": true
+}
