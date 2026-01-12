@@ -1,5 +1,4 @@
 package features.login.screen
 
-class LoginScreen { 
-	
+class LoginScreen {
 }
