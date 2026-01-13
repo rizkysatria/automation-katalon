@@ -11,7 +11,7 @@ class EpicGenerator {
 		}
 		println "✅ Epic created: ${epicName}"
 	}
-	
+
 	/**
 	 * Generate file FLAT mode
 	 * features 
@@ -39,7 +39,7 @@ class EpicGenerator {
 		new File(base, "${epic}Step.groovy")
 				.text = TemplateFactory.stepTemplate(featureName, epic, false)
 	}
-	
+
 	/**
 	 * Generate file LAYER mode
 	 * features 

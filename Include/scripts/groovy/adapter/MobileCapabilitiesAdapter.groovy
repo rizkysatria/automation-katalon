@@ -4,7 +4,7 @@ import groovy.json.JsonSlurper
 import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import internal.GlobalVariable
-import utility.LogUtil
+import core.utility.LogUtil
 
 class MobileCapabilitiesAdapter {
 

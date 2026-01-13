@@ -18,5 +18,5 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //CustomKeywords.'generator.ScaffoldTrigger.generateFeature'('onboarding')
-//CustomKeywords.'generator.ScaffoldTrigger.generateEpicWithoutFolder'('onboarding', 'Logout')
+//CustomKeywords.'generator.ScaffoldTrigger.generateEpicWithoutFolder'('onboarding', 'Onboarding')
 //CustomKeywords.'generator.ScaffoldTrigger.generateEpicWithoutFolder'('onboarding', 'Register')
