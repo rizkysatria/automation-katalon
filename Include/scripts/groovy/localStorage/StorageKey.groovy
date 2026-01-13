@@ -25,12 +25,6 @@ package localStorage
 
 
 enum StoreKey {
-
-	IS_LOGGED_IN,
 	USERNAME,
-	USER_ID,
-	TOKEN,
-	IS_FIRST_LAUNCH,
-	HAS_ONBOARDING,
-	SKIP_LOGIN
+	PASSWD,
 }

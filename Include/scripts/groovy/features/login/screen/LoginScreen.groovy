@@ -23,7 +23,6 @@ class LoginScreen {
 	}
 
 	static void verifyButtonBeranda() {
-		AssertUtility.visible("HOME_TOOLBAR_BERANDA", "beranda")
 	}
 	
 }

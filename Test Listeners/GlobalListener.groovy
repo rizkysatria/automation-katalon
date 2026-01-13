@@ -4,8 +4,12 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import adapter.ExecutionAdapter
 import adapter.GlueAdapter
 import adapter.MobileCapabilitiesAdapter
+import adapter.StorageAdapter
 import core.runtime.locator.LocatorRegistry
+import core.runtime.storage.StorageManager
+import cucumber.api.java.After
 import internal.GlobalVariable
+import localStorage.StoreKey
 import locators.AndroidLocator
 import locators.IOSLocator
 //import core.runtime.storage
@@ -18,7 +22,7 @@ class GlobalListener {
 		ExecutionAdapter.init()
 //		MobileCapabilitiesAdapter.init()
 		initLocator()
-		runApp()
+		StorageAdapter.init()
     } 
 	
 	private void initLocator() {
@@ -27,15 +31,6 @@ class GlobalListener {
 		} else {
 			LocatorRegistry.register(IOSLocator)
 		}
-	}
-	
-	private void runApp() {
-		Mobile.startApplication(GlobalVariable.APP_PATH, false)
-	}
-	
-	private void initStorageManager() {
-//		StorageManager.setMetaClass()
-//		LocalStore .set(StoreKey.IS_LOGGED_IN.name(), true)
 	}
 	
 }   

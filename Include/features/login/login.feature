@@ -1,7 +1,17 @@
-Feature: Login
+@Login
+Feature: Login ke Aplikasi
 
-Scenario: User login success with valid credentials
-  When user see onboarding screen
-  And user login with valid account
-  Then user should be redirected to home screen
- 
+Background:
+  Given aplikasi dibuka dari awal
+
+  @Login_konvensional
+  Scenario: Login akun konvensional berhasil
+    Given User berada di splash screen
+    When User login dengan password "akun konvensional" yang valid
+    Then User berhasil login dan masuk ke Beranda
+
+  @Login_syariah
+  Scenario: Login akun syariah berhasil
+    Given User berada di splash screen
+    When User login dengan password "akun syariah" yang valid
+    Then User berhasil login dan masuk ke Beranda
