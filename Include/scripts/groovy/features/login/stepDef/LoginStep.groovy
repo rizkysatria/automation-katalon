@@ -9,7 +9,7 @@ import cucumber.api.java.en.Given
 class LoginStep {
 
 	private final LoginUsecase loginUsecase = new LoginUsecase()
-	
+
 	@Given("aplikasi dibuka dari awal")
 	def freshInstallApp() {
 		loginUsecase.startApp()

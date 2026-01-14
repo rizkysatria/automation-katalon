@@ -12,7 +12,6 @@ import internal.GlobalVariable
 import localStorage.StoreKey
 import locators.AndroidLocator
 import locators.IOSLocator
-//import core.runtime.storage
 
 class GlobalListener {
     

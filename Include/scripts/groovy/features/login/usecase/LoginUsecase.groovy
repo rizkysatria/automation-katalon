@@ -11,8 +11,8 @@ import localStorage.StoreKey
 class LoginUsecase {
 
 	private final LoginScreen loginScreen = new LoginScreen()
-	private final OnboardingScreen  onboardingScreen = new OnboardingScreen()
-	
+		private final OnboardingScreen  onboardingScreen = new OnboardingScreen()
+
 	static String username = StorageManager.get(StoreKey.USERNAME.name())
 	static String psswd = StorageManager.get(StoreKey.PASSWD.name())
 
@@ -27,11 +27,11 @@ class LoginUsecase {
 		loginScreen.setPassword(psswd)
 		loginScreen.tapLogin()
 	}
-	
+
 	void validateHomeScreen() {
 		loginScreen.verifyButtonBeranda()
 	}
-	
+
 	void startApp() {
 		Mobile.startApplication(GlobalVariable.APP_PATH, true)
 	}
