@@ -4,17 +4,17 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 
 import core.runtime.locator.LocatorResolver
 import core.ui.UIAction
-import core.utility.AssertUtility
+import core.utility.AssertUtil
 
 public class OnboardingScreen {
 
 	static void checkTextOnboarding() {
 		def ONBOARDING_TITLE = LocatorResolver.create("ONBOARDING_TITLE")
 		Mobile.waitForElementPresent(ONBOARDING_TITLE, 5)
-		AssertUtility.textEquals("ONBOARDING_TITLE", "Selamat datang di Vello")
+		AssertUtil.assertEquals("ONBOARDING_TITLE", "Selamat datang di Vello")
 		def ONBOARDING_SUB_TITLE = LocatorResolver.create("ONBOARDING_SUB_TITLE")
 		Mobile.waitForElementPresent(ONBOARDING_SUB_TITLE, 5)
-		AssertUtility.textEquals("ONBOARDING_SUB_TITLE", "Nikmati kemudahan bertransaksi dengan aman dan cepat.")
+		AssertUtil.assertEquals("ONBOARDING_SUB_TITLE", "Nikmati kemudahan bertransaksi dengan aman dan cepat.")
 	}
 
 	static void tapNextBtn() {

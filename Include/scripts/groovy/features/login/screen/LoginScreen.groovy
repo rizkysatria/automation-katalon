@@ -6,7 +6,6 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 
 import core.runtime.locator.LocatorResolver
 import core.ui.UIAction
-import core.utility.AssertUtility
 
 class LoginScreen {
 
