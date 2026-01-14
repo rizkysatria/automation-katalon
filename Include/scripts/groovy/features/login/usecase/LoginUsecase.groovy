@@ -17,7 +17,6 @@ class LoginUsecase {
 	static String psswd = StorageManager.get(StoreKey.PASSWD.name())
 
 	void validateOnboarding() {
-		onboardingScreen.checkTextOnboarding()
 		onboardingScreen.tapNextBtn()
 		onboardingScreen.tapLoginOnBoarding()
 	}

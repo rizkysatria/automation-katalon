@@ -7,13 +7,8 @@ import core.ui.UIAction
 import core.utility.AssertUtil
 
 public class OnboardingScreen {
-
-	static void checkTextOnboarding() {
-//		AssertUtil.assertEquals("ONBOARDING_TITLE", "Selamat datang di Vello")
-//		AssertUtil.assertEquals("ONBOARDING_SUB_TITLE", "Nikmati kemudahan bertransaksi dengan aman dan cepat.")
-	}
-
-	static void tapNextBtn() {
+	
+	 void tapNextBtn() {
 		UIAction.tap("ONBOARDING_BTN_MULAI")
 	}
 
