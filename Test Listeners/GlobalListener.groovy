@@ -22,6 +22,7 @@ class GlobalListener {
 //		MobileCapabilitiesAdapter.init()
 		initLocator()
 		StorageAdapter.init()
+		Mobile.startApplication(GlobalVariable.APP_PATH, true)
     } 
 	
 	private void initLocator() {

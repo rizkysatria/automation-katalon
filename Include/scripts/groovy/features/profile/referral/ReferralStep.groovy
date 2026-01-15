@@ -12,13 +12,13 @@ class ReferralStep {
 
 	@Given("Pengguna dihalaman Profile")
 	def penggunaDihalamanProfile() {
-		// TODO: implement
+		referralUsecase.verifyProfileScreen()
 	}
 
 
 	@When("Pengguna menekan icon copy pada section referralcode")
 	def penggunaMenekanIconCopyPadaSectionReferralcode() {
-		// TODO: implement
+		referralUsecase.tapButtonCopy()
 	}
 
 

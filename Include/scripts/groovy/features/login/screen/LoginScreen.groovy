@@ -2,7 +2,6 @@ package features.login.screen
 
 import com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword
 import com.kms.katalon.core.model.FailureHandling
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 
 import core.runtime.locator.LocatorResolver
 import core.ui.UIAction
@@ -22,6 +21,6 @@ class LoginScreen {
 	}
 
 	static void verifyButtonBeranda() {
-		Mobile.delay(5)
+		UIAction.waitMedium()
 	}
 }

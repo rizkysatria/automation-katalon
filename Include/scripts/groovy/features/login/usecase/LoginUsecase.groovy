@@ -11,12 +11,13 @@ import localStorage.StoreKey
 class LoginUsecase {
 
 	private final LoginScreen loginScreen = new LoginScreen()
-		private final OnboardingScreen  onboardingScreen = new OnboardingScreen()
+	private final OnboardingScreen  onboardingScreen = new OnboardingScreen()
 
 	static String username = StorageManager.get(StoreKey.USERNAME.name())
 	static String psswd = StorageManager.get(StoreKey.PASSWD.name())
 
 	void validateOnboarding() {
+		onboardingScreen.verifyOnboarding()
 		onboardingScreen.tapNextBtn()
 		onboardingScreen.tapLoginOnBoarding()
 	}

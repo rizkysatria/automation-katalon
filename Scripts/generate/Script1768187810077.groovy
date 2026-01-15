@@ -6,6 +6,8 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 import core.scaffold.ScaffoldTrigger
 
-//ScaffoldTrigger.generateFeature("onboarding")
-//ScaffoldTrigger.generateEpicWithoutFolder("profile", "Referral")
+//ScaffoldTrigger.generateFeature("home")
+
 //ScaffoldTrigger.generateStepsFromFeature(featurePath: "Include/features/profile/referral.feature", stepDefPath: "Include/scripts/groovy/features/profile/referral/ReferralStep.groovy")
+//ScaffoldTrigger.generateEpicWithoutFolder("profile", "Referral")
+//ScaffoldTrigger.generateEpic("profile", "Referral")
