@@ -17,4 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+CucumberKW.runFeatureFileWithTags("Include/features/login/login.feature", ["@Login_konvensional"] as String[])
 CucumberKW.runFeatureFile("Include/features/profile/referral.feature")

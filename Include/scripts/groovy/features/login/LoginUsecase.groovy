@@ -1,9 +1,9 @@
-package features.login.usecase
+package features.login
 
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 
 import core.runtime.storage.StorageManager
-import features.login.screen.LoginScreen
+import features.login.LoginScreen
 import features.onboarding.OnboardingScreen
 import internal.GlobalVariable
 import localStorage.StoreKey

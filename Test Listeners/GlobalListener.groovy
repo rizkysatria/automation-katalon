@@ -1,4 +1,5 @@
 import com.kms.katalon.core.annotation.BeforeTestCase
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 
 import adapter.ExecutionAdapter
@@ -23,6 +24,7 @@ class GlobalListener {
 		initLocator()
 		StorageAdapter.init()
 		Mobile.startApplication(GlobalVariable.APP_PATH, true)
+		
     } 
 	
 	private void initLocator() {
@@ -32,5 +34,4 @@ class GlobalListener {
 			LocatorRegistry.register(IOSLocator)
 		}
 	}
-	
 }   

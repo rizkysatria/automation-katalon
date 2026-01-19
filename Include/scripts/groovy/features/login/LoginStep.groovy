@@ -1,6 +1,5 @@
-package features.login.stepDef
+package features.login
 
-import features.login.usecase.LoginUsecase
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 import cucumber.api.java.en.And

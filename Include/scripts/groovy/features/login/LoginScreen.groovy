@@ -1,4 +1,4 @@
-package features.login.screen
+package features.login
 
 import com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword
 import com.kms.katalon.core.model.FailureHandling
