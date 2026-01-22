@@ -19,4 +19,4 @@ import adapter.GlueAdapter
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile("Include/features/login/login.feature")
+CucumberKW.runFeatureFile("Include/features/loginndCreateAccount/postLogin.feature")

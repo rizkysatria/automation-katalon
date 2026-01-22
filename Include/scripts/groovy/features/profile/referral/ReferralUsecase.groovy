@@ -2,7 +2,7 @@
 package features.profile.referral
 
 import features.home.HomeScreen
-import features.login.LoginUsecase
+import features.loginAndCreateAccount.postLogin.PostLoginUsecase
 import features.onboarding.OnboardingScreen
 import features.profile.referral.ReferralScreen
 

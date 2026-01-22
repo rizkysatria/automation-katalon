@@ -1,16 +1,16 @@
-package features.login
+package features.loginAndCreateAccount.postLogin
 
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 
 import core.runtime.storage.StorageManager
-import features.login.LoginScreen
+import features.loginAndCreateAccount.postLogin.PostLoginScreen
 import features.onboarding.OnboardingScreen
 import internal.GlobalVariable
 import localStorage.StoreKey
 
-class LoginUsecase {
+class PostLoginUsecase {
 
-	private final LoginScreen loginScreen = new LoginScreen()
+	private final PostLoginScreen postLoginScreen = new PostLoginScreen()
 	private final OnboardingScreen  onboardingScreen = new OnboardingScreen()
 
 	static String username = StorageManager.get(StoreKey.USERNAME.name())
@@ -23,13 +23,13 @@ class LoginUsecase {
 	}
 
 	void validateLogin() {
-		loginScreen.setUsername(username)
-		loginScreen.setPassword(psswd)
-		loginScreen.tapLogin()
+		postLoginScreen.setUsername(username)
+		postLoginScreen.setPassword(psswd)
+		postLoginScreen.tapLogin()
 	}
 
 	void validateHomeScreen() {
-		loginScreen.verifyButtonBeranda()
+		postLoginScreen.verifyButtonBeranda()
 	}
 
 	void startApp() {

@@ -1,4 +1,4 @@
-package features.login
+package features.loginAndCreateAccount.postLogin
 
 import com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword
 import com.kms.katalon.core.model.FailureHandling
@@ -6,7 +6,7 @@ import com.kms.katalon.core.model.FailureHandling
 import core.runtime.locator.LocatorResolver
 import core.ui.UIAction
 
-class LoginScreen {
+class PostLoginScreen {
 
 	static void setUsername(String username) {
 		UIAction.setText("LOGIN_TF_USER_NAME", username)
