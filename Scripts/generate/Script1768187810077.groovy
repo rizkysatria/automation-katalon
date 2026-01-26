@@ -8,6 +8,6 @@ import core.scaffold.ScaffoldTrigger
 
 //ScaffoldTrigger.generateFeature("home")
 
-ScaffoldTrigger.generateStepsFromFeature(featurePath: "Include/features/profile/changeLanguage.feature", stepDefPath: "Include/scripts/groovy/features/profile/changelanguage/ChangeLanguageStep.groovy")
-//ScaffoldTrigger.generateEpicWithoutFolder("profile", "ChangeLanguage")
+//ScaffoldTrigger.generateStepsFromFeature(featurePath: "Include/features/profile/changeEmail.feature", stepDefPath: "Include/scripts/groovy/features/profile/changeemail/ChangeEmailStep.groovy")
+ScaffoldTrigger.generateEpicWithoutFolder("otp", "OtpCommon")
 //ScaffoldTrigger.generateEpic("profile", "Referral")

@@ -1,4 +1,4 @@
-package features.loginAndCreateAccount.postLogin
+package features.loginAndAccount.postLogin
 
 import com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword
 import com.kms.katalon.core.model.FailureHandling

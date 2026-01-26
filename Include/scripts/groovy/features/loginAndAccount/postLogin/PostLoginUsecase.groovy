@@ -1,9 +1,9 @@
-package features.loginAndCreateAccount.postLogin
+package features.loginAndAccount.postLogin
 
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 
 import core.runtime.storage.StorageManager
-import features.loginAndCreateAccount.postLogin.PostLoginScreen
+import features.loginAndAccount.postLogin.PostLoginScreen
 import features.onboarding.OnboardingScreen
 import internal.GlobalVariable
 import localStorage.StoreKey

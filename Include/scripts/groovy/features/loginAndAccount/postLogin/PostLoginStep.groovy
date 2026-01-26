@@ -1,4 +1,4 @@
-package features.loginAndCreateAccount.postLogin
+package features.loginAndAccount.postLogin
 
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
