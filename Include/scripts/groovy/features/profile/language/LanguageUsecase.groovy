@@ -14,7 +14,7 @@ class LanguageUsecase {
 			languageScreen.tapToggleEN()
 		}
 	}
-	
+
 	void verifyLanguageAlreadyChanges(String language) {
 		if (language == "id") {
 			languageScreen.verififyTitleLanguageID()

@@ -19,4 +19,4 @@ import adapter.GlueAdapter
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFileWithTags("Include/features/loginAndAccount/postLogin.feature", ["@PostLogin, @Login_konvensional"] as String[])
+CucumberKW.runFeatureFileWithTags("Include/features/loginAndAccount/postLogin.feature", ["@Login_konvensional"] as String[])

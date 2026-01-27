@@ -5,9 +5,15 @@ import features.profile.changeemail.ChangeEmailScreen
 
 class ChangeEmailUsecase {
 
-	private final ChangeEmailScreen changeemailScreen = new ChangeEmailScreen()
+	private final ChangeEmailScreen changeEmailScreen = new ChangeEmailScreen()
 
-	void execute() {
-		// TODO: implement usecase logic
+	void tapSectionChangeEmail() {
+		changeEmailScreen.tapSectionEmail()
+	}
+
+	void inputNewEmail() {
+		changeEmailScreen.inputCurrentEmail()
+		changeEmailScreen.inputNewEmail()
+		changeEmailScreen.tapNextBtn()
 	}
 }

@@ -8,30 +8,30 @@ import features.profile.changeemail.ChangeEmailUsecase
 
 class ChangeEmailStep {
 
-	private final ChangeEmailUsecase changeemailUsecase = new ChangeEmailUsecase()
+	private final ChangeEmailUsecase changeEmailUsecase = new ChangeEmailUsecase()
 
 	@When("Pengguna menekan Email section")
 	def penggunaMenekanEmailSection() {
-		// TODO: implement
+		changeEmailUsecase.tapSectionChangeEmail()
 	}
 
 	@And("Pengguna memasukan email baru")
 	def penggunaMemasukanEmailBaru() {
-		// TODO: implement
+		changeEmailUsecase.inputNewEmail()
 	}
 
-	@And("Pengguna memasukan OTP")
-	def penggunaMemasukanOTP() {
-		// TODO: implement
-	}
-
-	@And("Pengguna Memasukan PIN")
-	def penggunaMemasukanPIN() {
-		// TODO: implement
-	}
-
-	@Then("Email berhasil di ubah popup tampil")
-	def emailBerhasilDiUbahPopupTampil() {
-		// TODO: implement
-	}
+//	@And("Pengguna memasukan OTP")
+//	def penggunaMemasukanOTP() {
+//		// TODO: implement
+//	}
+//
+//	@And("Pengguna Memasukan PIN")
+//	def penggunaMemasukanPIN() {
+//		// TODO: implement
+//	}
+//
+//	@Then("Email berhasil di ubah popup tampil")
+//	def emailBerhasilDiUbahPopupTampil() {
+//		// TODO: implement
+//	}
 }
