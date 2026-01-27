@@ -5,11 +5,11 @@ import core.ui.UIAction
 import core.ui.UIAssert
 
 class LanguageScreen {
-	
+
 	void verififyTitleLanguageID() {
 		UIAssert.textEquals("PROFILE_TITLE_LANGUAGE", "Pilih Bahasa")
 	}
-	
+
 	void verififyTitleLanguageEN() {
 		UIAssert.textEquals("PROFILE_TITLE_LANGUAGE", "Language")
 	}
