@@ -20,18 +20,18 @@ class ChangeEmailStep {
 		changeEmailUsecase.inputNewEmail()
 	}
 
-//	@And("Pengguna memasukan OTP")
-//	def penggunaMemasukanOTP() {
-//		// TODO: implement
-//	}
-//
-//	@And("Pengguna Memasukan PIN")
-//	def penggunaMemasukanPIN() {
-//		// TODO: implement
-//	}
-//
-//	@Then("Email berhasil di ubah popup tampil")
-//	def emailBerhasilDiUbahPopupTampil() {
-//		// TODO: implement
-//	}
+		@And("Pengguna memasukan OTP")
+		def penggunaMemasukanOTP() {
+			// TODO: implement
+		}
+	
+		@And("Pengguna Memasukan PIN")
+		def penggunaMemasukanPIN() {
+			// TODO: implement
+		}
+	
+		@Then("Email berhasil di ubah popup tampil")
+		def emailBerhasilDiUbahPopupTampil() {
+			// TODO: implement
+		}
 }

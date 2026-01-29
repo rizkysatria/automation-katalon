@@ -9,5 +9,5 @@ import core.scaffold.ScaffoldTrigger
 //ScaffoldTrigger.generateFeature("home")
 
 //ScaffoldTrigger.generateStepsFromFeature(featurePath: "Include/features/profile/changeEmail.feature", stepDefPath: "Include/scripts/groovy/features/profile/changeemail/ChangeEmailStep.groovy")
-ScaffoldTrigger.generateEpicWithoutFolder("otp", "OtpCommon")
-//ScaffoldTrigger.generateEpic("profile", "Referral")
+ScaffoldTrigger.generateEpicWithoutFolder("loginAndAccount", "AccountListingTabunganList")
+ScaffoldTrigger.generateStepsFromFeature(featurePath: "Include/features/loginAndAccount/AccountListingTabunganList.feature", stepDefPath: "Include/scripts/groovy/features/loginAndAccount/accountListingTabunganList/AccountListingTabunganListStep.groovy")
