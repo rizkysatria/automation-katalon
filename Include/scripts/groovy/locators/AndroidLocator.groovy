@@ -22,7 +22,7 @@ class AndroidLocator {
 	static final String EDIT_EMAIL_TITLE_SCREEN = "//android.widget.TextView[@text='Edit Email']"
 	static final String EDIT_EMAIL_TXTFIELD_CURRENT = "//android.widget.TextView[@text='Masukkan email terdaftar'']"
 	static final String EDIT_EMAIL_TXTFIELD_NEW = "//android.widget.TextView[@text='Masukkan email baru']"
-	static final String EDIT_EMAIL_NEXT_BTN = "//android.view.View[@content-desc='Lanjut']"	
+	static final String EDIT_EMAIL_NEXT_BTN = "//android.view.View[@content-desc='Lanjut']"
 	static final String OTP_TITLE_SCREEN = ""
 	static final String OTP_BOX_1 = ""
 	static final String OTP_BOX_2 = ""
@@ -48,4 +48,6 @@ class AndroidLocator {
 	static final String ACCOUNT_LIST_ICN_SHOWHIDE_SALDO_DEPOSITO = ""
 	static final String ACCOUNT_LIST_ICN_SHOWHIDE_SALDO_TABUNGAN_RENCANA = ""
 	static final String ACCOUNT_LIST_ICN_SHOWHIDE_SALDO_PINJAMAN = ""
+	static final String ACCOUNT_LIST_CARD_LIST_INDEX_0 = ""
+	static final String CARD_DETAIL_SEE_DETAIL_BTN = ""
 }
