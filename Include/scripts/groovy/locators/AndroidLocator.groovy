@@ -49,5 +49,12 @@ class AndroidLocator {
 	static final String ACCOUNT_LIST_ICN_SHOWHIDE_SALDO_TABUNGAN_RENCANA = ""
 	static final String ACCOUNT_LIST_ICN_SHOWHIDE_SALDO_PINJAMAN = ""
 	static final String ACCOUNT_LIST_CARD_LIST_INDEX_0 = ""
+	static final String ACCOUNT_LIST_ACCOUNT_NAME_TEXT = ""
 	static final String CARD_DETAIL_SEE_DETAIL_BTN = ""
+	static final String ACCOUNT_EDIT_ACCOUNT_BTN = ""
+	static final String CHANGE_ACCOUNT_TITLE_SCREEN = ""
+	static final String CHANGE_ACCOUNT_RADIO_BTN_INDEX_0 = ""
+	static final String CHANGE_ACCOUNT_RADIO_BTN_INDEX_1 = ""
+	static final String CHANGE_ACCOUNT_NEXT_BTN = ""
+	static final String TOAST_MESSAGE_CHANGE_ACCOUNT_SUCCESS = ""
 }
