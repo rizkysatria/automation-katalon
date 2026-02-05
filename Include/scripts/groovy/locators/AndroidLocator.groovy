@@ -10,7 +10,8 @@ class AndroidLocator {
 	static final String LOGIN_TF_USER_NAME = "//android.widget.ScrollView/android.widget.EditText[1]"
 	static final String LOGIN_TF_PASSWORD = "//android.widget.ScrollView/android.widget.EditText[2]"
 	static final String LOGIN_BTN_MASUK = "Masuk"
-	static final String HOME_TOOLBAR_BERANDA = "Beranda"
+	static final String HOME_TAB_BERANDA = "new UiSelector().text('Beranda')"
+	static final String HOME_TAB_AKTIFITAS = "new UiSelector().text('Aktivitas').instance(1)"
 	static final String HOME_PROFILE_ICON = "//android.widget.ScrollView/android.view.View/android.view.View/android.view.View/android.view.View[1]"
 	static final String PROFILE_TITLE = "//android.widget.TextView[@text='Profil']"
 	static final String PROFILE_COPYPASTE_ICON = "//android.view.View[@content-desc='Salin']"
@@ -57,4 +58,11 @@ class AndroidLocator {
 	static final String CHANGE_ACCOUNT_RADIO_BTN_INDEX_1 = ""
 	static final String CHANGE_ACCOUNT_NEXT_BTN = ""
 	static final String TOAST_MESSAGE_CHANGE_ACCOUNT_SUCCESS = ""
+
+
+
+
+
+	static final String TITLE_HOME_SCREEN = ""
+	static final String TITLE_BTN_NEXT_ATAS = "//XCUIElementTypeOther[@name='Ďalej']"
 }
