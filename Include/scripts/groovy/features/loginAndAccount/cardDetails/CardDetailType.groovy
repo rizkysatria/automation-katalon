@@ -12,13 +12,13 @@ enum CardDetailType {
 	GPN_SYARIAH_GOLD("GPN Syariah Gold"),
 	GPN_SYARIAH_PLATINUM("GPN Syariah Platinum"),
 	KARTU_JAKARTA("Kartu Jakarta")
-	
+
 	final String label
-	
+
 	CardDetailType(String label) {
 		this.label = label
 	}
-	
+
 	static CardDetailType from(String text) {
 		def tab = values().find {
 			it.label.equalsIgnoreCase(text)
@@ -28,5 +28,4 @@ enum CardDetailType {
 		}
 		return tab
 	}
-	
 }

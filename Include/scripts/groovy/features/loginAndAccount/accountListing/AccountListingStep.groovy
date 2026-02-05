@@ -1,16 +1,18 @@
 
 package features.loginAndAccount.accountListing
 
-import features.loginAndAccount.accountListing.AccountListingUsecase
 import cucumber.api.java.en.And
 import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
+import features.loginAndAccount.accountListing.AccountListingUsecase
+import features.loginAndAccount.accountListing.AccountListType
+
 class AccountListingStep {
 
 	private final AccountListingUsecase accountlistingUsecase = new AccountListingUsecase()
-	private AccountListType tab = AccountListType.TABUNGAN
+	AccountListType tab = AccountListType.TABUNGAN
 
 	@Given("Pengguna dihalaman Beranda")
 	def penggunaDihalamanBeranda() {
@@ -33,12 +35,17 @@ class AccountListingStep {
 		accountlistingUsecase.onTapAndvalidateTab(tab)
 	}
 
-	@And("Pengguna menekan icon hide unhide (saldo|nominal deposito|nominal Sisa Pembiayaan)")
+	@And('Pengguna menekan icon hide unhide saldo')
 	def penggunaMenekanIconHideunhideSaldo(String value) {
 		accountlistingUsecase.onTapShowHideIcon(tab)
 	}
 
-	@Then("Sistem menampilkan atau menyembunyikan nominal (saldo|deposito|Sisa Pembiayaan)")
+	@And('Pengguna menekan icon hide unhide nominal "(.*)"')
+	def penggunaMenekanIconHideUnhide(String value) {
+		accountlistingUsecase.onTapShowHideIcon(tab)
+	}
+
+	@Then('Sistem menampilkan atau menyembunyikan nominal "(.*)"')
 	def sistemMenampilkanmenyembunyikanNominalSaldo(String value) {
 		accountlistingUsecase.verifyTextSaldo()
 	}
