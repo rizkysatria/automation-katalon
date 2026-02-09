@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>android</name>
+   <name>ios</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'android'</initValue>
+      <initValue>'ios'</initValue>
       <name>platform</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'App/app-dev-debug.apk'</initValue>
+      <initValue>'App/SwiftUISampleApp.app'</initValue>
       <name>APP_PATH</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
@@ -27,7 +27,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'id'</initValue>
+      <initValue>'en'</initValue>
       <name>LANG</name>
       <protected>false</protected>
       <valueType>STRING</valueType>

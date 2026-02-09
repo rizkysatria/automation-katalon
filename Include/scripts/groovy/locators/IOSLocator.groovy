@@ -1,5 +1,7 @@
 package locators
 
+import localization.Localize
+
 class IOSLocator {
 
 	static final String ONBOARDING_TITLE = "//android.widget.TextView[@text='Selamat datang di Vello']"
@@ -10,7 +12,8 @@ class IOSLocator {
 	static final String LOGIN_TF_USER_NAME = "//android.widget.TextView[@text='Masukkan Nama Pengguna']"
 	static final String LOGIN_TF_PASSWORD = "//android.widget.TextView[@text='Masukkan Kata Sandi']"
 	static final String LOGIN_BTN_MASUK = "//android.view.View[@content-desc='Masuk']"
-	static final String HOME_TOOLBAR_BERANDA = "Beranda"
+	static final String HOME_TAB_BERANDA = "new UiSelector().text('Beranda')"
+	static final String HOME_TAB_AKTIFITAS = "new UiSelector().text('Aktivitas').instance(1)"
 	static final String HOME_PROFILE_ICON = "//android.widget.ScrollView/android.view.View/android.view.View/android.view.View/android.view.View[1]"
 	static final String PROFILE_TITLE = "//android.widget.TextView[@text='Profil']"
 	static final String PROFILE_COPYPASTE_ICON = "//android.view.View[@content-desc='Salin']"
@@ -57,4 +60,12 @@ class IOSLocator {
 	static final String CHANGE_ACCOUNT_RADIO_BTN_INDEX_1 = ""
 	static final String CHANGE_ACCOUNT_NEXT_BTN = ""
 	static final String TOAST_MESSAGE_CHANGE_ACCOUNT_SUCCESS = ""
+
+
+
+
+	static final String TITLE_HOME_SCREEN = "//XCUIElementTypeStaticText[@name='${Localize.get('TITLE_HOME_SCREEN')}']"
+	static final String TITLE_BTN_NEXT_ATAS = "//XCUIElementTypeButton[@name='${Localize.get('TITLE_BTN_NEXT_ATAS')}']"
+	static final String LIST_ITEM_CODING_JURNAL = "//XCUIElementTypeStaticText[@name='${Localize.get('LIST_ITEM_CODING_JURNAL')}']"
+	static final String LIST_ITEM_HACKER_NEWS = "//XCUIElementTypeStaticText[@name='${Localize.get('LIST_ITEM_HACKER_NEWS')}']"
 }
