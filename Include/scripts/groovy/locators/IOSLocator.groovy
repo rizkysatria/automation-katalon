@@ -68,4 +68,17 @@ class IOSLocator {
 	static final String TITLE_BTN_NEXT_ATAS = "//XCUIElementTypeButton[@name='${Localize.get('TITLE_BTN_NEXT_ATAS')}']"
 	static final String LIST_ITEM_CODING_JURNAL = "//XCUIElementTypeStaticText[@name='${Localize.get('LIST_ITEM_CODING_JURNAL')}']"
 	static final String LIST_ITEM_HACKER_NEWS = "//XCUIElementTypeStaticText[@name='${Localize.get('LIST_ITEM_HACKER_NEWS')}']"
+
+// Pin locator
+	static final String PIN_BOX_1 = ""
+	static final String PIN_BOX_2 = ""
+	static final String PIN_BOX_3 = ""
+	static final String PIN_BOX_4 = ""
+	static final String PIN_BOX_5 = ""
+	static final String PIN_BOX_6 = ""
+	static final String PROFILE_SECTION_CHANGE_PIN = ""
+	static final String PROFILE_ICON_ARROW_CHANGE_PIN = ""
+	static final String OLD_PIN_TITLE_SCREEN = ""
+	static final String PROFILE_SECTION_SUCCESS_CHANGE_PIN = ""
+	static final String CHANGE_PIN_OKE_BTN = ""
 }

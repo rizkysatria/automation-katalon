@@ -65,4 +65,18 @@ class AndroidLocator {
 
 	static final String TITLE_HOME_SCREEN = ""
 	static final String TITLE_BTN_NEXT_ATAS = "//XCUIElementTypeOther[@name='Ďalej']"
+
+// Pin locator
+	static final String PIN_BOX_1 = ""
+	static final String PIN_BOX_2 = ""
+	static final String PIN_BOX_3 = ""
+	static final String PIN_BOX_4 = ""
+	static final String PIN_BOX_5 = ""
+	static final String PIN_BOX_6 = ""
+	static final String PROFILE_SECTION_CHANGE_PIN = ""
+	static final String PROFILE_ICON_ARROW_CHANGE_PIN = ""
+	static final String OLD_PIN_TITLE_SCREEN = ""
+	static final String PROFILE_SECTION_SUCCESS_CHANGE_PIN = ""
+	static final String CHANGE_PIN_OKE_BTN = ""
 }
+
