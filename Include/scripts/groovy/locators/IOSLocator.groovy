@@ -68,7 +68,6 @@ class IOSLocator {
 	static final String TITLE_BTN_NEXT_ATAS = "//XCUIElementTypeButton[@name='${Localize.get('TITLE_BTN_NEXT_ATAS')}']"
 	static final String LIST_ITEM_CODING_JURNAL = "//XCUIElementTypeStaticText[@name='${Localize.get('LIST_ITEM_CODING_JURNAL')}']"
 	static final String LIST_ITEM_HACKER_NEWS = "//XCUIElementTypeStaticText[@name='${Localize.get('LIST_ITEM_HACKER_NEWS')}']"
-
 // Pin locator
 	static final String PIN_BOX_1 = ""
 	static final String PIN_BOX_2 = ""
@@ -81,4 +80,14 @@ class IOSLocator {
 	static final String OLD_PIN_TITLE_SCREEN = ""
 	static final String PROFILE_SECTION_SUCCESS_CHANGE_PIN = ""
 	static final String CHANGE_PIN_OKE_BTN = ""
+	
+	static final String CONTACT_US = ""
+	static final String FIND_US = ""
+	static final String OFFICE_BRANCH =""
+	static final String ATM =""
+	static final String JAKONE_BANK =""
+	static final String MERCHANT =""
+	static final String  EDC =""
+	static final String BTN_BACK_NAVIGATION=""
+	static final String TITLE_CONTACT_US=""
 }

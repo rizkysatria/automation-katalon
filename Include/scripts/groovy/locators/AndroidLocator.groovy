@@ -58,11 +58,6 @@ class AndroidLocator {
 	static final String CHANGE_ACCOUNT_RADIO_BTN_INDEX_1 = ""
 	static final String CHANGE_ACCOUNT_NEXT_BTN = ""
 	static final String TOAST_MESSAGE_CHANGE_ACCOUNT_SUCCESS = ""
-
-
-
-
-
 	static final String TITLE_HOME_SCREEN = ""
 	static final String TITLE_BTN_NEXT_ATAS = "//XCUIElementTypeOther[@name='Ďalej']"
 
@@ -78,5 +73,14 @@ class AndroidLocator {
 	static final String OLD_PIN_TITLE_SCREEN = ""
 	static final String PROFILE_SECTION_SUCCESS_CHANGE_PIN = ""
 	static final String CHANGE_PIN_OKE_BTN = ""
-}
 
+	static final String CONTACT_US = ""
+	static final String FIND_US = ""
+	static final String OFFICE_BRANCH =""
+	static final String ATM =""
+	static final String JAKONE_BANK =""
+	static final String MERCHANT =""
+	static final String  EDC =""
+	static final String BTN_BACK_NAVIGATION=""
+	static final String TITLE_CONTACT_US=""
+}
